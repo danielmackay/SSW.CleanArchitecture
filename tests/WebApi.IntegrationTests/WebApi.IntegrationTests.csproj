@@ -28,8 +28,4 @@
     <ProjectReference Include="..\..\tools\MigrationService\MigrationService.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageVersion Update="tunit" Version="0.3.31" />
-  </ItemGroup>
-
 </Project>

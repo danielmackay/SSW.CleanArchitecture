@@ -22,6 +22,7 @@ public static class Testing
         // Nothing to do yet
     }
 
+    // NOTE: Could change this to class level if you want to reset the database less often
     [AfterEvery(Test)]
     public static async Task TestCleanUp(TestContext context)
     {
